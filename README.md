@@ -8,11 +8,17 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
 🚀 Features
 
 -Fetch emails directly from Gmail using the Gmail API
+
 -Data cleaning pipelines (basic and deep cleaning)
+
 -Preprocessing with TF-IDF vectorization
+
 -Multiple ML models: Logistic Regression, Naive Bayes, Random Forest, SVM
+
 -Streamlit web app for interactive classification
+
 -Electron wrapper for cross-platform desktop application
+
 -Ability to mark emails as read directly from the app
 
 📂 Project Structure
