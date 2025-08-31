@@ -25,6 +25,7 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
 
 📂 Project Structure
 
+```
 | --- Data collection and cleaning
 
        ---     | --- email_dataset.csv (original dataset)
@@ -36,6 +37,7 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
        ---     | --- deepclean.py
 
        ---     | --- Finaldatase.csv (cleaned dataset)
+       
 
 | --- Preprocessing
 
@@ -44,6 +46,7 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
        ---     | --- preprocessing.py
 
        ---     | --- emails_cleaned.csv (pre-processing dataset)
+       
 
 | --- Model Development
 
@@ -52,6 +55,7 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
        ---     | --- model_dev.ipynb
 
        ---     | --- email_sorting_model_svm.pkl ( trained model)
+       
 
 | --- Deployment
 
@@ -73,8 +77,10 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
 
        ---     |    ---     | --- smart_email_classifier.exe
 
+```
 
 🔑 Setup Instructions
+
 1. Clone the Repository
 
 git clone https://github.com/yourusername/Email-Classification-Problem.git
