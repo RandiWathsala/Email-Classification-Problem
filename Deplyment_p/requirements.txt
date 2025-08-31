@@ -1,0 +1,16 @@
+streamlit
+numpy
+pandas
+scipy
+scikit-learn
+tensorflow
+joblib
+lxml
+beautifulsoup4
+packaging
+google-auth
+google-auth-oauthlib
+google-api-python-client
+bs4
+nltk
+
