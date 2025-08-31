@@ -5,7 +5,7 @@
 A machine learning project that classifies Gmail emails into meaningful categories such as Academic, Bills & Finance, News & Updates, Personal, and Official.
 This project integrates data collection (from Gmail API), data cleaning, preprocessing, model development, and deployment via Streamlit wrapped in an Electron desktop app.
 
-🚀 Features
+#🚀 Features
 
 -Fetch emails directly from Gmail using the Gmail API
 
