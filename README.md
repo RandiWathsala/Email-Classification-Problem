@@ -34,8 +34,11 @@ cd Email-Classification-Problem
 2. Set up Gmail API
 
 -Go to Google Cloud Console
+
 -Enable Gmail API
+
 -Create OAuth client credentials → download credentials.json
+
 -Place credentials.json in the project root
 
 On first run, you’ll authenticate and generate a token.json for reuse.
@@ -85,35 +88,50 @@ npm run build
 🧪 Models Used
 
 -Logistic Regression
+
 -Naive Bayes
+
 -Random Forest
+
 -Support Vector Machine (SVM)
 
 Evaluation metrics include:
 
 -Accuracy
+
 -Precision
+
 -Recall
+
 -F1-Score
+
 -Confusion Matrix
 
 📊 Example Categories
 
 -Academic → university notices, research updates
+
 -Bills & Finance → bank statements, invoices
+
 -News & Updates → newsletters, subscriptions
+
 -Personal → personal conversations
+
 -Official → workplace / corporate emails
 
 🖼️ Screenshots
+
 ![Streamlit App - Screenshot](https://github.com/user-attachments/assets/42489995-cdf8-453b-8873-8dd75b30e719)
 
 
 🛠️ Tech Stack
 
 -Python (Pandas, Scikit-learn, NLTK, BeautifulSoup, Joblib)
+
 -Streamlit (UI)
+
 -Electron.js (Desktop wrapper)
+
 -Gmail API (Email data source)
 
 📜 License
