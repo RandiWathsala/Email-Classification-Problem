@@ -29,7 +29,7 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
 
 |      ---     | --- email_dataset.csv (original dataset)
 
-|      ---     | --- read.py
+       ---     | --- read.py
 
 |      ---     | --- clean.py
 
