@@ -7,46 +7,17 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
 
 🚀 Features
 
-Fetch emails directly from Gmail using the Gmail API
-
-Data cleaning pipelines (basic and deep cleaning)
-
-Preprocessing with TF-IDF vectorization
-
-Multiple ML models: Logistic Regression, Naive Bayes, Random Forest, SVM
-
-Streamlit web app for interactive classification
-
-Electron wrapper for cross-platform desktop application
-
-Ability to mark emails as read directly from the app
+-Fetch emails directly from Gmail using the Gmail API
+-Data cleaning pipelines (basic and deep cleaning)
+-Preprocessing with TF-IDF vectorization
+-Multiple ML models: Logistic Regression, Naive Bayes, Random Forest, SVM
+-Streamlit web app for interactive classification
+-Electron wrapper for cross-platform desktop application
+-Ability to mark emails as read directly from the app
 
 📂 Project Structure
 
-Email-Classification-Problem/
-│── data/
-│   ├── emails_dataset.csv          # Raw emails dataset
-│   ├── emails_dataset_clean.csv    # Cleaned dataset
-│   ├── dataset1.csv                # Deep cleaned dataset
-│   ├── emails_cleaned.csv          # Preprocessed dataset
-│
-│── read.py                         # Fetch emails from Gmail API
-│── clean.py                        # Basic cleaning of emails
-│── deepclean.py                    # Deep cleaning of emails
-│── preprocessing.py                 # Text preprocessing + TF-IDF
-│── model_dev.py (notebook/script)  # Model development & evaluation
-│
-│── app.py                          # Streamlit app for deployment
-│── connection.py                   # Gmail connection & helpers
-│── inference_utils.py              # Inference-time cleaning
-│
-│── electron/                       # Electron desktop wrapper
-│   ├── main.js                     # Electron entry point
-│   ├── package.json                # Electron build config
-│   └── assets/                     # App icons & resources
-│
-│── requirements.txt                # Python dependencies
-│── README.md                       # Documentation
+<img width="513" height="438" alt="Structure" src="https://github.com/user-attachments/assets/4571a689-9837-41f1-86ca-9f6ceb889972" />
 
 🔑 Setup Instructions
 1. Clone the Repository
