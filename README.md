@@ -27,51 +27,51 @@ This project integrates data collection (from Gmail API), data cleaning, preproc
 
 | --- Data collection and cleaning
 
-|           | --- email_dataset.csv (original dataset)
+|      _     | --- email_dataset.csv (original dataset)
 
-|           | --- read.py
+|      _     | --- read.py
 
-|           | --- clean.py
+|      _     | --- clean.py
 
-|           | --- deepclean.py
+|      _     | --- deepclean.py
 
-|           | --- Finaldatase.csv (cleaned dataset)
+|      _     | --- Finaldatase.csv (cleaned dataset)
 
 | --- Preprocessing
 
-|           | --- Finaldatase.csv (cleaned dataset)
+|      _     | --- Finaldatase.csv (cleaned dataset)
 
-|           | --- preprocessing.py
+|      _     | --- preprocessing.py
 
-|           | --- emails_cleaned.csv (pre-processing dataset)
+|      _     | --- emails_cleaned.csv (pre-processing dataset)
 
 | --- Model Development
 
-|           | --- emails_cleaned.csv (pre-processing dataset)
+|      _    | --- emails_cleaned.csv (pre-processing dataset)
 
-|           | --- model_dev.ipynb
+|      _     | --- model_dev.ipynb
 
-|           | --- email_sorting_model_svm.pkl ( trained model)
+|      _     | --- email_sorting_model_svm.pkl ( trained model)
 
 | --- Deployment
 
-|           | --- Python (embedded python) - https://www.python.org/ftp/python/3.13.7/python-3.13.7-embed-amd64.zip
+|      _     | --- Python (embedded python) - https://www.python.org/ftp/python/3.13.7/python-3.13.7-embed-amd64.zip
 
-|           | --- node_modules - run `npm install` in cmd inside the Deployment folder, it will automatically create this folder
+|      _     | --- node_modules - run `npm install` in cmd inside the Deployment folder, it will automatically create this folder
 
-|           | --- connection.py
+|      _     | --- connection.py
 
-|           | --- inference_utils.py
+|      _     | --- inference_utils.py
 
-|           | --- app.py
+|      _     | --- app.py
 
-|           | --- main.js
+|      _     | --- main.js
 
-|           | --- main.json
+|      _     | --- main.json
 
-|           | --- dist - run `npm run build` in cmd inside the Deployment folder, it will automatically create this folder.
+|      _     | --- dist - run `npm run build` in cmd inside the Deployment folder, it will automatically create this folder.
 
-|           |           | --- smart_email_classifier.exe
+|      _     |    _     | --- smart_email_classifier.exe
 
 
 🔑 Setup Instructions
